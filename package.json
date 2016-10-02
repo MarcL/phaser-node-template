@@ -1,0 +1,27 @@
+{
+  "name": "phaser-node-template",
+  "version": "1.0.0",
+  "description": "Starter project for Phaser JS + Node to serve files",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcL/phaser-node-template.git"
+  },
+  "keywords": [
+    "phaser",
+    "node",
+    "express"
+  ],
+  "author": "Marc Littlemore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcL/phaser-node-template/issues"
+  },
+  "homepage": "https://github.com/MarcL/phaser-node-template#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
