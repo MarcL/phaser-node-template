@@ -4,7 +4,8 @@
   "description": "Starter project for Phaser JS + Node to serve files",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./{src}"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,12 @@
   "homepage": "https://github.com/MarcL/phaser-node-template#readme",
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "eslint": "^3.7.0",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^2.0.0"
   }
 }
